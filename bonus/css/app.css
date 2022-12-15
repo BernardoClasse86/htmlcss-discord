@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+ul {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/**********************
+debug
+**********************/
+
+.debug .main-header {
+    /* padding: 20px 0; */
+}
+
+.debug .page-footer {
+    /* padding: 20px 0; */
+}
+
+.debug .container,
+.debug .container_opening {
+    /* border: 2px dashed tomato; */
+    /* padding: 20px; */
+}
+
+.debug [class^='col'] {
+    /* border: 3px solid black; */
+    /* padding: 8px; */
+}
+
+.debug .row {
+    /* border: 2px dotted cornflowerblue;
+    padding: 20px; */
+}
+
+.debug .opening>* {
+    /* min-height: 500px; */
+}
+
+.debug main [class^='col'] {
+    min-height: 300px;
+}
+
+.debug .page-footer {
+    border: 3px solid white;
+}
+
+/**********************
+debug
+**********************/
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* header */
+
+.main-header {
+    font-size: 18px;
+    background-color: #255EE9;
+    padding: 20px;
+}
+
+.logo-icon {
+    /* min-height: 80px; */
+}
+
+.row.links {
+    padding: 8px;
+    justify-content: space-around;
+}
+
+nav [class^='col-link'] {
+    padding: 12px;
+}
+
+.login-button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+/* main */
+
+/* opening  */
+
+.opening_img {
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.container_opening {
+    text-align: center;
+    padding: 50px 10px;
+    color: white;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.text {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.download-button-mac {
+    background-color: white;
+    color: black;
+    padding: 14px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.discord-browser {
+    background-color: #23272A;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.row.links.mac-browser {
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* /opening */
+
+/* main */
+
+main [class^='col']>h2 {
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+main [class^='col']>p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.col-text {
+    flex-basis: 40%;
+}
+
+.col-figure {
+    flex-basis: 60%;
+}
+
+.col-full {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.img-4 {
+    padding-bottom: 30px;
+}
+
+#subtitle {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.img-5 {
+    max-width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.download-button-mac-2 {
+    background-color: #7289DA;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
+/* footer1 */
+
+#subtitle-foot {
+    font-size: 32px;
+    color: #6F85D7;
+    padding: 10px 0;
+}
+
+#italy-flag {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.page-footer {
+    background-color: #23272A;
+    color: white;
+}
+
+.col-33 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-16 {
+    flex-basis: calc(100% / 6);
+}
+
+#arrow {
+    display: inline-block;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-315deg);
+    margin-bottom: 2px;
+}
+
+div>i {
+    padding: 10px 5px;
+}
+
+.foot-list.head {
+    color: #6F85D7;
+    font-weight: bold;
+}
+
+li.foot-list {
+    padding-bottom: 10px;
+}
+
+/* footer1  */
+
+/* /footer2 */
+
+.section.first-footer {
+    padding: 50px 0 20px 0;
+}
+
+.border-end {
+    border-bottom: 1px solid #7289DA;
+    padding: 40px;
+}
+
+.section.second-footer {
+    padding: 20px 0;
+}
+
+.register-button {
+    background-color: #6F85D7;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+/* /footer2 */
+
+/* waves */
+
+.wave.up {
+    margin-bottom: -5px;
+}
+
+.wave.down {
+    transform: rotate(180deg);
+}
