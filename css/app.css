@@ -15,14 +15,22 @@ menu {
     list-style: none;
 }
 
+ul {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
 
 /**********************
 debug
 **********************/
 
 .debug .main-header {
-    background-color: aqua;
-    padding: 20px 0;
+    background-color: #255EE9;
+    /* padding: 20px 0; */
 }
 
 .debug .page-footer {
@@ -85,13 +93,30 @@ debug
 
 /* header */
 
+.main-header {
+    font-size: 18px;
+}
+
 .logo-icon {
-    min-height: 80px;
+    /* min-height: 80px; */
 }
 
 .row.links {
     padding: 8px;
     justify-content: space-around;
+}
+
+nav [class^='col-link'] {
+    padding: 8px;
+}
+
+.login-button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 20px;
 }
 
 /* main */
